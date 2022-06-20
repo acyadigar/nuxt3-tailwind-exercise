@@ -7,4 +7,7 @@
 </template>
 
 <script setup>
+definePageMeta({
+  middleware: ['auto-login', 'auth']
+})
 </script>
